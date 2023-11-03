@@ -1,3 +1,4 @@
+// Notice: this code was written by Chat GPT to provide an example of what this project might look like with initial development.
 let map;
 let heatmap;
 
