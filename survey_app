@@ -1,0 +1,59 @@
+<!-- Notice: This code is written by Chat GPT-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Survey</h1>
+    <form id="surveyForm">
+        <label for="traffic">Traffic:</label>
+        <div class="rating">
+            <input type="radio" name="traffic" value="1" required>1
+            <input type="radio" name="traffic" value="2">2
+            <input type="radio" name="traffic" value="3">3
+            <input type="radio" name="traffic" value="4">4
+            <input type="radio" name="traffic" value="5">5
+        </div>
+
+        <label for="safety">Safety:</label>
+        <div class="rating">
+            <input type="radio" name="safety" value="1" required>1
+            <input type="radio" name="safety" value="2">2
+            <input type="radio" name="safety" value="3">3
+            <input type="radio" name="safety" value="4">4
+            <input type="radio" name="safety" value="5">5
+        </div>
+
+        <label for="treat-speculation">Treat Speculation:</label>
+        <div class="rating">
+            <input type="radio" name="treat-speculation" value="1" required>1
+            <input type="radio" name="treat-speculation" value="2">2
+            <input type="radio" name="treat-speculation" value="3">3
+            <input type="radio" name="treat-speculation" value="4">4
+            <input type="radio" name="treat-speculation" value="5">5
+        </div>
+
+        <label for="vibes">Vibes:</label>
+        <div class="rating">
+            <input type="radio" name="vibes" value="1" required>1
+            <input type="radio" name="vibes" value="2">2
+            <input type="radio" name="vibes" value="3">3
+            <input type="radio" name="vibes" value="4">4
+            <input type="radio" name="vibes" value="5">5
+        </div>
+
+        <!-- Geotag Input (you need to implement this) -->
+        <label for="geotag">Geotag (Low Precision):</label>
+        <input type="text" name="geotag" id="geotag" placeholder="Latitude, Longitude" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
