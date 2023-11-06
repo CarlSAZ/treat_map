@@ -13,5 +13,7 @@ Then in the days before Halloween, the map mode of the application will open up.
 ![image](https://github.com/CarlSAZ/treat_map/assets/18180161/02cee38c-dab2-4dd8-8072-34b6db7a42bb)
 
 ## Development focus
+The minimum viable product (MVP) is to get the user survey submission feature implemented, the server backend, and the heatmap gui. These represent the core of what makes the Treat-map different from other applications or simple features on google maps.
 
+After that, more features can be added such as additional overlays of traffic or weather. 
 
